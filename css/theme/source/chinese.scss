@@ -12,11 +12,10 @@
 
 
 // Include theme-specific fonts
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #fff;
+$backgroundColor: lightgrey;
 
 $mainColor: #222;
 $headingColor: #222;
@@ -37,6 +36,9 @@ $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
+// Font border color
+$fontBorderColor: snow;
+
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
 		color: #fff;
@@ -48,11 +50,17 @@ section.has-dark-background {
 @import "../template/theme";
 // ---------------------------------------------
 
+.reveal {
+	h1, p {
+		text-shadow: -2px 0 $fontBorderColor, 0 2px $fontBorderColor, 2px 0 $fontBorderColor, 0 -2px $fontBorderColor;
+		letter-spacing: 0.2em;
+	}
+}
+
 .reveal p {
 	font-size: 1.5em;
-	text-shadow: 3px 3px 2px darkgrey;
 }
 
 .reveal h1 {
-	text-shadow: 3px 3px 2px darkgrey;
 }
+
