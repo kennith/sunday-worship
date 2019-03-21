@@ -11,12 +11,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: lightgrey;
-  background-color: lightgrey; }
+  background: #777;
+  background-color: #777; }
 
 .reveal {
   font-family: "Noto Sans TC", Helvetica, sans-serif;
-  font-size: 42px;
+  font-size: 48px;
   font-weight: normal;
   color: #222; }
 
@@ -270,7 +270,7 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: lightgrey; } }
+    background-color: #777; } }
 
 .reveal h1, .reveal p {
   text-shadow: -2px 0 snow, 0 2px snow, 2px 0 snow, 0 -2px snow;
