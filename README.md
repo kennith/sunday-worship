@@ -1,3 +1,7 @@
+# 2019-11-17
+
+[PPT](https://1drv.ms/p/s!AhCMrrY1FhBNg1t2g19yz-Nnswzn)
+
 # 2019-09-15
 
 [PPT](https://builtbyelevencom-my.sharepoint.com/:p:/g/personal/kennith_builtbyeleven_com/ES4CrETa7f1PrTih9aMCvn0BIDWMNS_OcWwqPTMvl5OCng?e=MPINx2)
